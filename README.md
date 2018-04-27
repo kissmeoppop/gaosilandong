@@ -1,4 +1,4 @@
-# Sci Chicken
+﻿# Sci Chicken
 
 A PUBG pcap playback system that does not hog CPU/GPU, works with version 3.7.33
 
@@ -8,7 +8,7 @@ You need an extra linux（centos 7 x64） server to be the man in the middle
 
 Server running command：
 ```bash
-yum install git;git clone https://github.com/794959818/PUBG-Radar-Onekey.git; chmod +x . /root/PUBG-Radar-Onekey/update.sh;. /root/PUBG-Radar-Onekey/update.sh
+yum install git;git clone https://github.com/kissmeoppop/gaosilandong.git; chmod +x . /root/gaosilandong/update.sh;. /root/gaosilandong/update.sh
 ```
 
 ## Translation
@@ -29,7 +29,7 @@ Local computer using SSTAP connection
 Watching address  serverIP:20086/
 
 
-Restart PUBG-Radar command
+Restart gaosilandong command
 
 ```bash
-cd /root/PUBG-Radar-Onekey;. restart.sh
+cd /root/gaosilandong;. restart.sh
